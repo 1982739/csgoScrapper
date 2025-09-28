@@ -35,4 +35,4 @@ jobs:
         SPREADSHEET_NAME: ${{ secrets.SPREADSHEET_NAME }}
       run: |
         echo "$GOOGLE_CREDENTIALS" > credentials.json
-        python scraper.py
+        python main.py
