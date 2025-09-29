@@ -1,11 +1,11 @@
 name: Automated Web Scraper
 
-on:
-  schedule:
-    # Ejecutar cada 4 horas
-    - cron: '0 */4 * * *'
-  # Permitir ejecución manual
-  workflow_dispatch:
+# on:
+#   schedule:
+#     # Ejecutar cada 4 horas
+#     - cron: '0 */4 * * *'
+#   # Permitir ejecución manual
+#   workflow_dispatch:
 
 jobs:
   scrape:
